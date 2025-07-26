@@ -1,8 +1,8 @@
-# 🎬 WatchWhat - Movie Watchlist Web App
+# 🎬 BayBinge - Movie Watchlist Web App
 
 A beautiful, cinematic movie watchlist web app. Search for movies, add them to your personal watchlist, and track your total watch time—all with a stunning, animated UI inspired by the magic of cinema.
 
-![WatchWhat Screenshot](screenshot.png)
+![BayBinge Screenshot](screenshot.png)
 
 ---
 
@@ -26,8 +26,8 @@ Deploy this project in seconds on [Netlify Drop](https://app.netlify.com/drop) o
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/WatchWhat.git
-   cd WatchWhat
+   git clone https://github.com/yourusername/BayBinge.git
+   cd BayBinge
    ```
 2. **Open `index.html` in your browser**
    - Or run a local server:
@@ -70,5 +70,4 @@ Add your screenshots here!
 ---
 
 ## 📄 License
-MIT # WatchWhat
-# WatchWhat
+MIT
