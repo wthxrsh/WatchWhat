@@ -1,5 +1,7 @@
 # 🎬 BayBinge - Movie Watchlist Web App
 
+![BayBinge Icon](baybinge-icon.png)
+
 A beautiful, cinematic movie watchlist web app. Search for movies, add them to your personal watchlist, and track your total watch time—all with a stunning, animated UI inspired by the magic of cinema.
 
 ![BayBinge Screenshot](screenshot.png)
