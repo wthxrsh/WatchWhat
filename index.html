@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchWhat - Your Movie Watchlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="film-strip-bg"></div>
+    <div class="stars-bg"></div>
+    
+    <header class="movie-header">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-film"></i>
+                <h1>WatchWhat</h1>
+            </div>
+            <div class="header-subtitle">Your Personal Movie Collection</div>
+        </div>
+        <div class="header-glow"></div>
+    </header>
+
+    <main class="main-content">
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search for movies, actors, or genres...">
+                    <button id="searchBtn" class="search-btn">
+                        <i class="fas fa-play"></i>
+                        <span>Search</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="content-wrapper">
+            <section class="watchlist-section">
+                <div class="section-header">
+                    <i class="fas fa-heart"></i>
+                    <h2>Your Watchlist</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="watchlist-stats" id="watchlistStats">
+                    <div class="stats-item">
+                        <i class="fas fa-film"></i>
+                        <span id="movieCount">0 movies</span>
+                    </div>
+                    <div class="stats-item">
+                        <i class="fas fa-clock"></i>
+                        <span id="totalDuration">0 hours 0 minutes</span>
+                    </div>
+                </div>
+                
+                <div id="WatchlistContainer" class="movies-grid">
+                    <div class="empty-state" id="watchlistEmptyState">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Add movies to your watchlist</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="movies-section" id="searchSection">
+                <div class="section-header">
+                    <i class="fas fa-search"></i>
+                    <h2>Search Results</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div id="moviesContainer" class="movies-grid">
+                    <div class="empty-state" id="searchEmptyState">
+                        <i class="fas fa-film"></i>
+                        <p>Search for movies to get started</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="notification" id="notification"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
